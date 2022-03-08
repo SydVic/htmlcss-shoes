@@ -5,8 +5,18 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: 'Rubik Mono One', sans-serif;
+    scroll-behavior: smooth;
+}
+
 ul{
     list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
 }
 
 /* COMMON */
@@ -28,9 +38,23 @@ ul{
     background-color: #ffff00;
 }
 
+/* NAV */
 .scroll-menu{
     position:fixed;
+    right: 50px;
+    top:50px;
     z-index: 999;
+}
+
+li{
+    display: inline-block;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #ffffff;
 }
 
 /* PRODUCTS */
@@ -41,9 +65,6 @@ ul{
     transform: translate(-50%, -50%);
 }
 
-.product img{
-    width: 100%;
-}
 
 .yellow-text{
     font-size: 3em;
@@ -55,4 +76,8 @@ ul{
     font-size: 3em;
     color: #008000;
     text-transform: uppercase;
+}
+
+h2{
+    text-align: center;
 }
