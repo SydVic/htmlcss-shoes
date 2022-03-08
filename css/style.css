@@ -5,11 +5,13 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
 .container{
     position: relative;
     width: 100%;
     height: 100vh;
 }
+
 .red{
     background-color: #ff0000;
 }
@@ -22,6 +24,7 @@
     background-color: #ffff00;
 }
 
+/* PRODUCTS */
 .product{
     position: absolute;
     top: 50%;
@@ -33,8 +36,14 @@
     width: 100%;
 }
 
-.product h2{
+.yellow-text{
     font-size: 3em;
     color: #ffff00;
+    text-transform: uppercase;
+}
+
+.green-text{
+    font-size: 3em;
+    color: #008000;
     text-transform: uppercase;
 }
