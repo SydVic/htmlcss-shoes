@@ -41,7 +41,7 @@ a{
 /* NAV */
 .scroll-menu{
     position:fixed;
-    right: 50px;
+    right: 0;
     top:50px;
     z-index: 999;
 }
@@ -55,6 +55,7 @@ li{
     text-align: center;
     border-radius: 50%;
     background-color: #ffffff;
+    margin: 0 15px;
 }
 
 /* PRODUCTS */
@@ -65,19 +66,19 @@ li{
     transform: translate(-50%, -50%);
 }
 
+.text{
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
 
 .yellow-text{
-    font-size: 3em;
     color: #ffff00;
-    text-transform: uppercase;
 }
 
 .green-text{
-    font-size: 3em;
     color: #008000;
-    text-transform: uppercase;
 }
 
-h2{
+.product h2{
     text-align: center;
 }
