@@ -6,6 +6,7 @@
 }
 
 .container{
+    position: relative;
     width: 100%;
     height: 100vh;
 }
@@ -19,4 +20,21 @@
 
 .yellow{
     background-color: #ffff00;
+}
+
+.product{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.product img{
+    width: 100%;
+}
+
+.product h2{
+    font-size: 3em;
+    color: #ffff00;
+    text-transform: uppercase;
 }
