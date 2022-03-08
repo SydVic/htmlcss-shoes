@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+ul{
+    list-style: none;
+}
+
 /* COMMON */
 .container{
     position: relative;
@@ -22,6 +26,11 @@
 
 .yellow{
     background-color: #ffff00;
+}
+
+.scroll-menu{
+    position:fixed;
+    z-index: 999;
 }
 
 /* PRODUCTS */
