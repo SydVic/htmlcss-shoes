@@ -22,19 +22,19 @@ a{
 /* COMMON */
 .container{
     position: relative;
-    width: 100%;
+    /* width: 100%; */
     height: 100vh;
 }
 
-.red{
+.container.red{
     background-color: #ff0000;
 }
 
-.green{
+.container.green{
     background-color: #008000;
 }
 
-.yellow{
+.container.yellow{
     background-color: #ffff00;
 }
 
