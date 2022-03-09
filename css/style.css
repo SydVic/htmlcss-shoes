@@ -79,6 +79,8 @@ li{
     left: 50%;
     width: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
+    margin: 0 auto;
 }
 
 .text{
@@ -92,9 +94,4 @@ li{
 
 .green-text{
     color: #008000;
-}
-
-.product h2{
-    margin: 0 auto;
-    text-align: center;
 }
